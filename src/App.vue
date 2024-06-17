@@ -5,13 +5,13 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <header>
     <div>
-      <nav class="flex justify-center gap-[50px] w-screen mt-5 mb-8">
-        <RouterLink to="/" class="text-2xl hover:underline">Home</RouterLink>
-        <RouterLink to="/products" class="text-2xl hover:underline">Products</RouterLink>
-        <RouterLink to="/about" class="text-2xl hover:underline">About</RouterLink>
+      <nav class="flex gap-5">
+        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
   </header>
+
   <RouterView />
 </template>
 

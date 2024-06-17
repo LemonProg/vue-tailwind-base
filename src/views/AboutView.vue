@@ -1,6 +1,6 @@
 <template>
-  <div class="text-center">
-    <h1 class="text-[35px] font-extrabold">Very bad copy of apple store</h1>
+  <div>
+    <h1 class="text-[50px] font-extrabold">This is an about page</h1>
   </div>
 </template>
 
